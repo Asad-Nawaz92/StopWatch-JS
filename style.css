@@ -7,11 +7,12 @@ main {
     background-color: black;
 }
 
-h1{
+h1 {
     font-family: 'Roboto', sans-serif;
-    font-size: 6.5rem !important;
-    margin-bottom: 50px ;
+    font-size: 6.5rem;
+    margin-bottom: 50px;
 }
+
 .main_div {
     font-family: 'Roboto', sans-serif;
     display: flex;
@@ -27,21 +28,21 @@ h1{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    font-size: 6.5rem !important;
+    font-size: 6.5rem;
 }
 
 button {
     background: red;
     color: white;
-    border-radius: 25px !important;
-    margin: 72px 20px !important;
-    font-size: 20px !important;
-    padding: 11px 35px !important;
+    border-radius: 25px;
+    margin: 72px 20px;
+    font-size: 20px;
+    padding: 11px 35px;
     cursor: pointer;
     border: none;
 }
 
-button:hover{
+button:hover {
     background-color: white;
     color: black;
 }
