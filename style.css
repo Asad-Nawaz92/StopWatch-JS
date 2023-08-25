@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    background-color: black;
+}
+
+h1{
+    font-family: 'Roboto', sans-serif;
+    font-size: 6.5rem !important;
+    margin-bottom: 50px ;
+}
+.main_div {
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    color: red;
+}
+
+#num {
+    font-family: "Digital Numbers";
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 6.5rem !important;
+}
+
+button {
+    background: red;
+    color: white;
+    border-radius: 25px !important;
+    margin: 72px 20px !important;
+    font-size: 20px !important;
+    padding: 11px 35px !important;
+    cursor: pointer;
+    border: none;
+}
+
+button:hover{
+    background-color: white;
+    color: black;
+}
