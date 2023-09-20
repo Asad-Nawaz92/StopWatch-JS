@@ -1,3 +1,19 @@
+:root {
+    --main-font: 'Roboto', sans-serif;
+    --num-font: "Digital Numbers";
+    --main-color: red;
+    --button-bg: red;
+    --button-text: white;
+    --button-hover-bg: white;
+    --button-hover-text: black;
+    --button-border-radius: 25px;
+    --button-margin: 72px 20px;
+    --button-font-size: 19.5px;
+    --button-padding: 11px 35px;
+    --h1-font-size: 6rem;
+    --num-font-size: 4.5rem;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -8,51 +24,50 @@ main {
 }
 
 h1 {
-    font-family: 'Roboto', sans-serif;
-    font-size: 6.5rem;
+    font-family: var(--main-font);
+    font-size: var(--h1-font-size);
     margin-bottom: 50px;
 }
 
 .main_div {
-    font-family: 'Roboto', sans-serif;
+    font-family: var(--main-font);
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
     flex-direction: column;
-    color: red;
+    color: var(--main-color);
 }
 
 #num {
-    font-family: "Digital Numbers";
+    font-family: var(--num-font);
     display: flex;
     justify-content: space-around;
     align-items: center;
-    font-size: 6.5rem;
+    font-size: var(--num-font-size);
 }
 
 button {
-    background: red;
-    color: white;
-    border-radius: 25px;
-    margin: 72px 20px;
-    font-size: 20px;
-    padding: 11px 35px;
+    background: var(--button-bg);
+    color: var(--button-text);
+    border-radius: var(--button-border-radius);
+    margin: var(--button-margin);
+    font-size: var(--button-font-size);
+    padding: var(--button-padding);
     cursor: pointer;
     border: none;
 }
 
 button:hover {
-    background-color: white;
-    color: black;
+    background-color: var(--button-hover-bg);
+    color: var(--button-hover-text);
 }
 
 @media only screen and (max-width: 551px) {
-
     button {
         margin: 60px 7px;
         font-size: 13px;
-        border-radius: 25px;
+        border-radius: var(--button-border-radius);
     }
 
     h1 {
@@ -60,19 +75,16 @@ button:hover {
     }
 
     #num {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        font-size: 4rem;
+        font-size: 3.5rem;
     }
 }
-@media only screen and (max-width: 360px) {
 
+@media only screen and (max-width: 360px) {
     button {
         margin: 55px 1px;
-        padding: 11px 20px ;
+        padding: 11px 20px;
         font-size: 11px;
-        border-radius: 25px;
+        border-radius: var(--button-border-radius);
     }
 
     h1 {
@@ -80,9 +92,6 @@ button:hover {
     }
 
     #num {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        font-size: 3rem;
+        font-size: 2.7rem;
     }
 }
