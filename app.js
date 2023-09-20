@@ -40,14 +40,14 @@ function pause() {
 }
 
 function reset() {
-  minutes = '0';
-  seconds = '0';
-  miliSeconds = '0';
+  minutes = "0";
+  seconds = "0";
+  miliSeconds = "0";
 
   clearInterval(interval);
 
-  getMins.innerHTML = '00';
-  getSecs.innerHTML = '00';
-  getMilisecs.innerHTML = '00';
+  getMins.innerHTML = "00";
+  getSecs.innerHTML = "00";
+  getMilisecs.innerHTML = "00";
   document.getElementById("disabled").disabled = false;
 }
