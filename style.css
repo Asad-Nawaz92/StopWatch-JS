@@ -62,6 +62,22 @@ button:hover {
   background-color: var(--button-hover-bg);
   color: var(--button-hover-text);
 }
+.main-footer {
+  text-align: center;
+  padding: 10px;
+  margin: 0 auto;
+  background-color:aliceblue;
+  color: black;
+  font-size: 1.4em;
+}
+
+.icons {
+  padding-bottom: 10px;
+  font-size: 1.45em;
+}
+.fa-brands {
+  padding-left: 8px;
+}
 
 @media only screen and (max-width: 551px) {
   button {
@@ -76,6 +92,9 @@ button:hover {
 
   #num {
     font-size: 3.5rem;
+  }
+  .main-footer{
+    font-size: 1.3em;
   }
 }
 
@@ -93,5 +112,8 @@ button:hover {
 
   #num {
     font-size: 2.7rem;
+  }
+  .main-footer{
+    font-size: 1.2em;
   }
 }
